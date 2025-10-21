@@ -12,11 +12,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; 
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden; 
   position: relative;  
-}
+  padding-top: 30px; 
+
 
 h1 {
   font-size: 4em;
@@ -229,3 +230,4 @@ button:hover {
     padding: 15px;
   }
 }
+
